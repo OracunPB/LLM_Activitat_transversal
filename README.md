@@ -1,4 +1,4 @@
-# LLM_Activitat_transversal
+# LMSGI_Activitat_transversal
 
 PAU BOSCH /
 ALEX TOME
