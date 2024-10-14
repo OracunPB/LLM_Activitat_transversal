@@ -1,4 +1,4 @@
 # LLM_Activitat_transversal
 
-PAU BOSCH
+PAU BOSCH /
 ALEX TOME
