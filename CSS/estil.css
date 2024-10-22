@@ -55,12 +55,27 @@ header {
     text-align: left;
   }
 
-.container {
+.columna_pers {
+    float: left;
+    width: 95%;
+    padding: 25px;
     background-color: rgba(255, 255, 255, 0.80);
     font-family: Lucida Sans; color: rgb(0, 0, 0);
-    text-align: justify; vertical-align: top; 
+    text-align: justify; vertical-align: top;
     display: flex;
-    justify-content:space-around;
+    justify-content:stretch;
+    margin: 25px; padding: 25px;
+}
+
+.columna_arma {
+    float: left;
+    width: 95%;
+    padding: 25px;
+    background-color: rgba(175, 0, 0, 0.9);
+    font-family: Lucida Sans; color: rgb(255, 255, 255);
+    text-align: justify; vertical-align: top;
+    display: flex;
+    justify-content:stretch;
     margin: 25px; padding: 25px;
 }
 
