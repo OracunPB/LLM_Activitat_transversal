@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    background-color: rgb(225, 225, 225);
+    background-image: url(/img/vertical_wallpaper.jpg);
+    background-size: 100%;
     }
 
 header {
@@ -20,7 +21,6 @@ header {
     justify-content:space-around;
     margin: 0;
     padding: 0;
-    list-style-type: none;
     }
     
 .topnav a {
@@ -37,29 +37,38 @@ header {
     background-color: rgb(225, 0, 0);
     color: white;
     }
+
     
 .topnav a.active {
     background-color: rgb(255, 255, 255);
     color: rgb(175, 0, 0);
     }
+
 .topnav a.active:hover {
     background-color: rgb(225, 0, 0);
     color: white;
 }
+
 .pic1 {
-  float: right;
-  height:170px; margin:15px;
-  
+    height: 250px;
+    padding: 25px;
+    text-align: left;
+  }
+
+.container {
+    background-color: rgba(255, 255, 255, 0.80);
+    font-family: Lucida Sans; color: rgb(0, 0, 0);
+    text-align: justify; vertical-align: top; 
+    display: flex;
+    justify-content:space-around;
+    margin: 25px; padding: 25px;
 }
 
-section::after {
-    content: "";
-    display: table;
-    clear: both;
+.Jin {
+    height: 250px;
+    padding-right: 25px;
 }
 
-.article {
-    float: right;
-    margin: 15px;
-    padding: 15px;
+.Jin:hover {
+    opacity: 0.5;
 }
