@@ -66,6 +66,46 @@ header {
     justify-content:stretch;
     margin: 25px; padding: 25px;
 }
+.Jin {
+    height: 250px;
+    width: 250px;
+    padding-right: 25px;
+}
+
+.Jin:hover {
+    opacity: 0.5;
+}
+
+table {
+    width: 100%;
+    padding: 25px;
+    font-family: Lucida Sans; color: rgb(0, 0, 0);
+    border-collapse: separate; border-spacing: 10px;
+    text-align: center;
+}
+
+th {
+    width: 25%;
+    background-color: rgba(200, 200, 200, 0.9);
+    font-size: 25px;
+    padding: 20px;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+    padding: 5px;
+}
+
+.row_habtit {
+    font-size: 15px;
+}
+
+.hab {
+    font-size: 15px;
+    width: 60px;
+    padding: 2px;
+}
 
 .columna_arma {
     float: left;
@@ -77,16 +117,6 @@ header {
     display: flex;
     justify-content:stretch;
     margin: 25px; padding: 25px;
-}
-
-.Jin {
-    height: 250px;
-    width: 250px;
-    padding-right: 25px;
-}
-
-.Jin:hover {
-    opacity: 0.5;
 }
 
 .arma {
