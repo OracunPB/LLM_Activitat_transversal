@@ -12,7 +12,7 @@ header {
     padding: 20px;
     }
 
-.topnav {
+.navbar {
     overflow: hidden;
     background-color: rgb(175, 0, 0);
     color: white;
@@ -23,7 +23,7 @@ header {
     padding: 0;
     }
     
-.topnav a {
+.navbar a {
     flex-grow: 1;
     float: inline-end;
     color: white;
@@ -33,21 +33,27 @@ header {
     font-size: 18px;
     }
     
-.topnav a:hover {
+.navbar a:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(175, 0, 0);
     }
 
     
-.topnav a.active {
+.navbar a.active {
     background-color: rgb(255, 255, 255);
     color: rgb(175, 0, 0);
     }
 
-.topnav a.active:hover {
+.navbar a.active:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(175, 0, 0);
 }
+
+.navbar_personatge {
+    float: left;
+}
+
+
 
 .pic1 {
     height: 250px;
