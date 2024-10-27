@@ -29,3 +29,44 @@
                 <a href="07_QuiSom.html"><i class="fa fa-fw fa-question-circle-o"></i> QUI SÓM?</a>
             </div>
         </nav>
+        <Section>
+            <form style="margin-bottom: 0;">
+                <label style="font-weight: bold;">DADES PERSONALS:</label><br>
+                <br>
+                <label for="Nom&Cognoms">Nom i Cognoms:</label><br>
+                <input type="text" id="Nom&Cognoms" name="Nom&Cognoms" required><br>
+                <label for="Email">Email:</label><br>
+                <input type="email" id="Email" name="Email" required><br>
+                <label for="DataNaixement">Edat:</label><br>
+                <input type="number" id="Edat" name="Edat" min="16" max="65" style="width: 12%;" required><br>
+                <br>
+                <label style="font-weight: bold;">DISPOSITIU:</label><br>
+                <br>
+                <input type="checkbox" id="PS4" name="PS4" value="PS4" style="width: auto;">
+                <label for="PS4">PlayStation 4</label><br>
+                <input type="checkbox" id="PS5" name="PS5" value="PS5" style="width: auto;">
+                <label for="PS5">PlayStation 5</label><br>
+                <input type="checkbox" id="PC" name="PC" value="PC" style="width: auto;">
+                <label for="PC">PC</label><br>
+                <br>
+                <label style="font-weight: bold;">VERSIÓ</label><br>
+                <br>
+                <input type="radio" name="GOTOriginal" id="GOTOriginal" style="width: auto;">
+                <label for="GOTOriginal">Ghost Of Tsushima (1st Version)</label><br>
+                <input type="radio" name="GOTDirectorCut" id="GOTDirectorCut" style="width: auto;">
+                <label for="GOTDirectorCut">Ghost Of Tsushima Director's Cut</label><br>
+                <br>
+                <label style="font-weight: bold;">PERSONATGE FAVORIT</label>
+                <br>
+                <label for="Favorit"></label><br>
+                    <select name="Personatge Favorit" id="Personatge Favorit" style="padding: 1%; width: 20%;">
+                        <option value="Blanc"></option>
+                        <option value="Jin Sakai">Jin Sakai</option>
+                        <option value="Lord Shimura">Lord Shimura</option>
+                        <option value="Khotun-Kan">Khotun-Kan</option>
+                        <option value="Yuna">Yuna</option>
+                    </select>
+                <br>
+                <input type="submit" value="Submit" style="width: 10%;">
+            </form>
+        </Section>
