@@ -2,7 +2,7 @@
 body {
     margin: 0;
     background-size: 100%;
-    background-image: url(/LLM_Activitat_transversal/img/vertical_wallpaper.jpg), url(/img/vertical_wallpaper.jpg)
+    background-image: url(/LLM_Activitat_transversal/img/vertical_wallpaper.jpg), url(/img/vertical_wallpaper.jpg);
     }
 
 header {
