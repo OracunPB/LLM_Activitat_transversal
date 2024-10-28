@@ -2,8 +2,7 @@
 body {
     margin: 0;
     background-size: 100%;
-    background-image: url(/LLM_Activitat_transversal/img/vertical_wallpaper.jpg);
-    background-image: url(/img/vertical_wallpaper.jpg);
+    background-image: url(/LLM_Activitat_transversal/img/vertical_wallpaper.jpg), url(/img/vertical_wallpaper.jpg)
     }
 
 header {
@@ -77,7 +76,7 @@ header {
 }
 
 .Jin:hover {
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 /*HTML - HABILITATS & ARMES */
