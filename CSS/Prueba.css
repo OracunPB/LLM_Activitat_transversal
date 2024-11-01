@@ -100,12 +100,21 @@ ul, ol {
 }
 
 /*HTML - HABILITATS & ARMES */
+
+#skilltree {
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    margin-left: 58px;
+    margin-right: 58px;
+    padding: 10px;
+}
+
 table {
     width: 95%;
     font-family: 'Trebuchet MS', 'Gill Sans', Helvetica, sans-serif; color: rgb(0, 0, 0);
     border-collapse: separate; border-spacing: 10px;
     text-align: center;
-    margin-left: auto; margin-right: auto;
+    margin: auto; margin-bottom: 20px;
 }
 
 th {
