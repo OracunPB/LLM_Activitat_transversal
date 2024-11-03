@@ -1,6 +1,10 @@
 /* GENERAL */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
-    margin: 0;
     background-size: 100%;
     background-image: url(/LLM_Activitat_transversal/img/vertical_wallpaper.jpg), url(/img/vertical_wallpaper.jpg);
     }
@@ -14,41 +18,57 @@ header {
     }
 
 /* BARRA DE NAVEGACIÓ */
+#nav {
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Gill Sans', 'Helvetica', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 18px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.navbar li a.active {
+    background-color: white;
+    color: rgb(175, 0, 0);
+}
+
 .navbar {
-    overflow: hidden;
+    display: flex;
+    flex-grow: 1;
+}
+
+.navbar li a {
     background-color: rgb(175, 0, 0);
     color: white;
-    font-family: 'Trebuchet MS', 'Gill Sans', Helvetica, sans-serif;
-    display: flex;
-    justify-content:space-around;
-    margin: 0;
-    padding: 0;
-    }
-    
-.navbar a {
-    flex-grow: 1;
-    float: inline-end;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
-    }
-    
-.navbar a:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(175, 0, 0);
-    }
+    padding: 15px;
+    display: block;
+}
 
-    
-.navbar a.active {
+.navbar li a:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(175, 0, 0);
-    }
+}
 
-.navbar a.active:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(175, 0, 0);
+.navbar > li {
+    flex-grow: 1;
+    position: relative;
+}
+
+.navbar li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 100%;
+}
+
+.navbar li:hover > ul {
+    display: block;
 }
 
 /* HTML - INDEX */
@@ -80,12 +100,21 @@ header {
 }
 
 /*HTML - HABILITATS & ARMES */
+
+#skilltree {
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    margin-left: 58px;
+    margin-right: 58px;
+    padding: 10px;
+}
+
 table {
     width: 95%;
     font-family: 'Trebuchet MS', 'Gill Sans', Helvetica, sans-serif; color: rgb(0, 0, 0);
     border-collapse: separate; border-spacing: 10px;
     text-align: center;
-    margin-left: auto; margin-right: auto;
+    margin: auto; margin-bottom: 20px;
 }
 
 th {
