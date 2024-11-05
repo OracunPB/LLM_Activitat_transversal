@@ -138,6 +138,7 @@ td {
 .hab {
     width: 60px;
     padding: 5px;
+    text-align: center;
 }
 
 .hab_text {
