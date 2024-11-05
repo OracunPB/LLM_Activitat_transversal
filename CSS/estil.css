@@ -19,6 +19,7 @@ header {
 
 /* BARRA DE NAVEGACIÓ */
 #nav {
+    position: sticky; top: 0;
     width: 100%;
     font-family: 'Trebuchet MS', 'Gill Sans', 'Helvetica', sans-serif;
     display: flex;
