@@ -7,6 +7,9 @@
 body {
     background-size: 100%;
     background-image: url(/LLM_Activitat_transversal/img/vertical_wallpaper.jpg), url(/img/vertical_wallpaper.jpg);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     }
 
 header {
@@ -72,6 +75,15 @@ ul, ol {
     display: block;
 }
 
+/* FOOTER */
+footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 1em 0;
+    text-align: center;
+    margin-top: auto;
+}
+
 /* HTML - INDEX */
 .img_index {
     width: 200px;
@@ -83,8 +95,8 @@ ul, ol {
     float: left;
     width: 95%;
     padding: 25px;
-    background-color: rgba(255, 255, 255, 0.95);
-    font-size: 18px;font-family: 'Trebuchet MS', 'Gill Sans', Helvetica, sans-serif; color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 18px; font-family: 'Trebuchet MS', 'Gill Sans', Helvetica, sans-serif; color: rgb(0, 0, 0);
     text-align: justify; vertical-align: top;
     display: flex;
     justify-content:stretch;
@@ -183,15 +195,4 @@ label {
 input {
     margin-top: 10px; margin-bottom: 10px ; padding: 5px;
     width: 50%;
-}
-
-.footer {
-    background-color: #777;
-    padding: 10px;
-    text-align: center;
-    color: white;
-    position: sticky;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
 }
