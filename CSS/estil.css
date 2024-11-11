@@ -94,6 +94,7 @@ ul, ol {
     height: 250px;
     width: 250px;
     padding-right: 25px;
+    display:flex;
 }
 
 .Jin:hover {
@@ -140,7 +141,7 @@ td {
 
 .hab_text {
     font-size: 18px;
-    text-align: left;
+    text-align: center;
     padding: 20px;
 }
 
@@ -182,4 +183,15 @@ label {
 input {
     margin-top: 10px; margin-bottom: 10px ; padding: 5px;
     width: 50%;
+}
+
+.footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: sticky;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
