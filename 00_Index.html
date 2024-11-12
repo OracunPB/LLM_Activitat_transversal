@@ -1,58 +1,61 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <link rel="stylesheet" href="CSS\Estil.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="icon" href="img/GOT-Logo.ico" type="image/icon type">
-        <title>GHOST OF TSUSHIMA - WikiVidejoc</title>
-    </head>
+<head>
+    <link rel="stylesheet" href="CSS/Estil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/GOT-Logo.ico" type="image/x-icon">
+    <title>GHOST OF TSUSHIMA - WikiVideojoc</title>
+</head>
 
-    <body>
-        <header>
-            <!-- LOGO CAPÇALERA -->
-            <div>
-                <a href="00_Index.html"><img src="img/header_logo.jpg" ; alt="Ghost of Tsushima" width="500px"></a>
-            </div>
-        </header>
-
-        <!-- MENÚ DE NEVAGACIÓ -->
-        <div id="nav">
-            <ul class="navbar">
-                <li><a href="00_Index.html" class="active"><i class="fa fa-fw fa-home"></i> INDEX</a></li>
-                <li><a href="01_Historia.html"><i class="fa fa-fw fa-archive"></i> HISTÒRIA</a></li>
-                <li><a href="02_Personatges.html"><i class="fa fa-fw fa-group"></i> PERSONATGES</a></li>
-                <li><a><i class="fa fa-fw fa-shield"></i> HABILITATS I ARMES</a>
-                    <ul>
-                        <li><a href="03_01_Habilitats_Samurai.html">Habilitats Samurai</a></li>
-                        <li><a href="03_02_Habilitats_Postures.html">Habilitats Postures</a></li>
-                        <li><a href="03_03_Habilitats_Fantasma.html">Habilitats Fantasma</a></li>
-                        <li><a href="03_04_Armes.html">Armes</a></li>
-                    </ul>
-                </li>
-                <li><a href="04_Ubicacions.html"><i class="fa fa-fw fa-map"></i> MAPA</a></li>
-                <li><a href="05_Galeria.html"><i class="fa fa-fw fa-image"></i> GALERIA</a></li>
-                <li><a href="06_Formulari.html"><i class="fa fa-fw fa-pencil-square-o"></i> FORMULARI</a></li>
-                <li><a href="07_QuiSom.html"><i class="fa fa-fw fa-question-circle-o"></i> QUI SÓM?</a></li>
-            </ul>
+<body>
+    <!-- Encabezado con logo -->
+    <header>
+        <div>
+            <a href="00_Index.html">
+                <img src="img/header_logo.jpg" alt="Ghost of Tsushima" width="500px">
+            </a>
         </div>
+    </header>
 
-        <!-- INDEX -->
-        <div class="columna_pers">
-                <div>
-                    <p>Ghost of Tsushima és un joc en tercera persona en món obert que combina acció i sigil desenvolupat per Sucker Punch Productions exclusivament per a PlayStatin 4. L'història succeeix al 1274 a l'illa de Tsushima, Japó. El jugador controla a l'heroi, Jin Sakai, qui combat contra les forces Mongoles a l'invasió de Tsushima. El joc va ser publicat el 17 de juliol de 2020.</p>
-                </div>
-                <div>
-                    <img src="img/ghost_of_tsushima_pic1.jpg"; alt="GOT Cover"; class="img_index">
-                </div>
+    <!-- Menú de Navegación -->
+    <nav id="nav">
+        <ul class="navbar">
+            <li><a href="00_Index.html" class="active"><i class="fa fa-fw fa-home"></i> INDEX</a></li>
+            <li><a href="01_Historia.html"><i class="fa fa-fw fa-archive"></i> HISTÒRIA</a></li>
+            <li><a href="02_Personatges.html"><i class="fa fa-fw fa-group"></i> PERSONATGES</a></li>
+            <li>
+                <a href="#"><i class="fa fa-fw fa-shield"></i> HABILITATS I ARMES</a>
+                <ul aria-label="Submenú de HABILITATS I ARMES">
+                    <li><a href="03_01_Habilitats_Samurai.html">Habilitats Samurai</a></li>
+                    <li><a href="03_02_Habilitats_Postures.html">Habilitats Postures</a></li>
+                    <li><a href="03_03_Habilitats_Fantasma.html">Habilitats Fantasma</a></li>
+                    <li><a href="03_04_Armes.html">Armes</a></li>
+                </ul>
+            </li>
+            <li><a href="04_Ubicacions.html"><i class="fa fa-fw fa-map"></i> MAPA</a></li>
+            <li><a href="05_Galeria.html"><i class="fa fa-fw fa-image"></i> GALERIA</a></li>
+            <li><a href="06_Formulari.html"><i class="fa fa-fw fa-pencil-square-o"></i> FORMULARI</a></li>
+            <li><a href="07_QuiSom.html"><i class="fa fa-fw fa-question-circle-o"></i> QUI SÓM?</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de Índice -->
+    <main class="columna_pers">
+        <section>
+            <p>Ghost of Tsushima és un joc en tercera persona en món obert que combina acció i sigil desenvolupat per Sucker Punch Productions exclusivament per a PlayStatin 4. L'història succeeix al 1274 a l'illa de Tsushima, Japó. El jugador controla a l'heroi, Jin Sakai, qui combat contra les forces Mongoles a l'invasió de Tsushima. El joc va ser publicat el 17 de juliol de 2020.</p>
+        </section>
+        <section>
+            <img src="img/ghost_of_tsushima_pic1.jpg" alt="Portada de Ghost of Tsushima" class="img_index">
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <div>
+            <p>&copy; 2023 Ghost of Tsushima WikiVideojoc. Todos los derechos reservados.</p>
         </div>
+    </footer>
+</body>
 
-        <!-- FOOTER -->
-        <footer>
-            <div>
-                <p>FOOTER</p>
-            </div>
-        </footer>
-        
-    </body>
 </html>
