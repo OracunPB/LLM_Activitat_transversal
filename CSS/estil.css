@@ -92,6 +92,15 @@ footer {
     padding: 10px;
 }
 
+/* HTML - HISORIA */
+.historia {
+    width: 95%;
+    padding: 25px; margin: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-family: 'Trebuchet MS', 'Gill Sans', Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
 /* HTML - PERSONATGES */
 .columna_pers {
     float: left;
@@ -99,7 +108,7 @@ footer {
     padding: 25px;
     background-color: rgba(255, 255, 255, 0.9);
     font-size: 18px; font-family: 'Trebuchet MS', 'Gill Sans', Helvetica, sans-serif; color: rgb(0, 0, 0);
-    text-align: justify; vertical-align: top;
+    text-align: justify; vertical-align: top; line-height: 1.5;
     display: flex;
     justify-content:stretch;
     margin: 25px; padding: 25px;
