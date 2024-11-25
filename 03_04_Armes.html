@@ -10,43 +10,66 @@
     
     <body>
         <header>
-
-            <!-- LOGO CAPÇALERA -->
+            <!-- LOGO HEADER -->
             <div>
-                <div>
-                    <a href="00_Index.html">
-                    <img src="img/header_logo.jpg" ; alt="Ghost of Tsushima" width="500px";>
-                    </a>    
+                <a href="00_Index.html">
+                    <img src="img/header_logo.jpg" alt="Ghost of Tsushima" width="250px">
+                </a>
             </div>
+            
+            <!-- MENÚ DE NAVEGACIÓ -->
+            <nav id="nav">
+                <ul class="navbar">
+                    <li><a href="00_Index.html"><i class="fa fa-fw fa-home"></i> INDEX</a></li>
+                    <li><a href="01_Historia.html"><i class="fa fa-fw fa-archive"></i> HISTÒRIA</a></li>
+                    <li><a href="02_Personatges.html"><i class="fa fa-fw fa-group"></i> PERSONATGES</a></li>
+                    <li>
+                        <a href="#" class="active"><i class="fa fa-fw fa-shield"></i> HABILITATS I ARMES</a>
+                        <ul aria-label="Submenú de HABILITATS I ARMES">
+                            <li><a href="03_01_Habilitats_Samurai.html">Habilitats Samurai</a></li>
+                            <li><a href="03_02_Habilitats_Postures.html">Habilitats Postures</a></li>
+                            <li><a href="03_03_Habilitats_Fantasma.html">Habilitats Fantasma</a></li>
+                            <li><a href="03_04_Armes.html">Armes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="04_Ubicacions.html"><i class="fa fa-fw fa-map"></i> MAPA</a></li>
+                    <li><a href="05_Galeria.html"><i class="fa fa-fw fa-image"></i> GALERIA</a></li>
+                    <li><a href="06_Formulari.html"><i class="fa fa-fw fa-pencil-square-o"></i> FORMULARI</a></li>
+                    <li><a href="07_QuiSom.html"><i class="fa fa-fw fa-question-circle-o"></i> QUI SÓM?</a></li>
+                </ul>
+            </nav>
         </header>
 
-        <!-- MENÚ DE NEVAGACIÓ -->
-        <div id="nav">
-            <ul class="navbar">
-                <li><a href="00_Index.html"><i class="fa fa-fw fa-home"></i> INDEX</a></li>
-                <li><a href="01_Historia.html"><i class="fa fa-fw fa-archive"></i> HISTÒRIA</a></li>
-                <li><a href="02_Personatges.html"><i class="fa fa-fw fa-group"></i> PERSONATGES</a></li>
-                <li><a class="active"><i class="fa fa-fw fa-shield"></i> HABILITATS I ARMES</a>
-                    <ul>
-                        <li><a href="03_01_Habilitats_Samurai.html">Habilitats Samurai</a></li>
-                        <li><a href="03_02_Habilitats_Postures.html">Habilitats Postures</a></li>
-                        <li><a href="03_03_Habilitats_Fantasma.html">Habilitats Fantasma</a></li>
-                        <li><a href="03_04_Armes.html">Armes</a></li>
-                    </ul>
-                </li>
-                <li><a href="04_Ubicacions.html"><i class="fa fa-fw fa-map"></i> MAPA</a></li>
-                <li><a href="05_Galeria.html"><i class="fa fa-fw fa-image"></i> GALERIA</a></li>
-                <li><a href="06_Formulari.html"><i class="fa fa-fw fa-pencil-square-o"></i> FORMULARI</a></li>
-                <li><a href="07_QuiSom.html"><i class="fa fa-fw fa-question-circle-o"></i> QUI SÓM?</a></li>
-            </ul>
-        </div>
-
         <!-- ARMES -->
+        <div class="columna_arma">
+            <div><img src="img/Katana.png"; alt="Katana"; class="arma"></div>
+            <div><h1>KATANA</h1>La Katana Sakai és la principal arma principal utilitzada per Jin Sakai durant la invasió mongol a l'illa de Tsushima . S'utilitza juntament amb el Sakai Tanto i constitueix el " Sakai Steel ".</div>
+        </div>
+        <div class="columna_arma">
+            <div><img src="img/Arc_Llarg.PNG"; alt="Arc LLarg": class="arma"></div>
+            <div><h1>ARC LLARG</h1>El llegendari arc llarg d'Uchitsune és una arma que Jin Sakai pot adquirir completant el conte mític " La maledicció d'Uchitsune " . A diferència d'altres armes que podrien entrar en possessió de Jin, l'arc llarg d'Uchitsune és una relíquia legendaria la naturalesa sobrenatural de la qual ha quedat ambigua.</div>
+        </div>
+        <div class="columna_arma">
+            <div><img src="img/Arc_Curt.PNG"; alt="Arc Curt": class="arma"></div>
+            <div><h1>ARC CURT</h1>L' arc curt és una arma a distància utilitzada per Jin Sakai en el seu viatge per alliberar Tsushima dels invasors mongols. Jin adquireix l'arc durant el " The Tale of Sensei Ishikawa "; originàriament era propietat d'Ishikawa i li va ser atorgat per Lord Nagao com a símbol del seu llarg servei al clan Nagao. El sensei permet a Jin "manllevar" l'arc fins que s'aconsegueixi la victòria sobre Khotun Khan .</div>
+        </div>
+        <div class="columna_arma">
+            <div><img src="img/Kunai.PNG"; alt="Kunai": class="arma"></div>
+            <div><h1>KUNAI</h1>El Kunai és una de les armes fantasmes utilitzades per Jin. Es desbloqueja gastant un punt de tècnica a la secció Armes fantasma del menú Tècniques. Els enemics mongols d'alt nivell i els líders mongols trobats en trobades aleatòries intentaran utilitzar-los si Jin es troba en un lloc de difícil accés (com ara en aigües profundes) però els veu.</div>
+        </div>
+        <div class="columna_arma">
+            <div><img src="img/Bomba_Enganxosa.png"; alt="Bomba Enganxosa": class="arma"></div>
+            <div><h1>BOMBA ENGANXOSA</h1>La bomba enganxosa és una arma fantasma utilitzada per Jin Sakai. És una bomba coberta de camp que s'enganxa als enemics i/o objectes abans d'explotar. Tot i que les bombes enganxoses són principalment una arma fantasma, també es poden utilitzar en estils de joc samurais.</div>
+        </div>
+        <div class="columna_arma">
+            <div><img src="img/Bomba_Fum.png"; alt="Bomba de Fum": class="arma"></div>
+            <div><h1>BOMBA DE FUM</h1>La bomba de fum és una arma fantasma utilitzada per Jin Sakai. La bomba de fum es pot utilitzar per confondre enemics o per executar un atac invisible.</div>
+        </div>
 
         <!-- FOOTER -->
         <footer>
             <div>
-                <p>FOOTER</p>
+                <p>2023 Ghost of Tsushima WikiVideojoc. Todos los derechos reservados.</p>
             </div>
         </footer>
 

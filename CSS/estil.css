@@ -18,6 +18,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    position: sticky; top: 0;
     }
 
 /* BARRA DE NAVEGACIÓ */
@@ -77,8 +78,9 @@ ul, ol {
 
 /* FOOTER */
 footer {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(175, 0, 0);
     color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Gill Sans', 'Helvetica', sans-serif;
     padding: 1em 0;
     text-align: center;
     margin-top: auto;
@@ -163,12 +165,11 @@ td {
 
 .columna_arma {
     width: 90%;
-    padding: 25px; margin: auto;
+    padding: 20px; margin-top: 15px; margin-bottom: 15px;
     background-color: rgba(175, 0, 0, 0.95);
     font-family: 'Gill Sans', 'Trebuchet MS', Helvetica, sans-serif; color: rgb(255, 255, 255);
     text-align: justify; vertical-align: top;
     display: flex;
-    justify-content:stretch;
 }
 
 .arma {
@@ -177,7 +178,7 @@ td {
 }
 
 .arma:hover {
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 /* ESTIL DEL FORMULARI */
