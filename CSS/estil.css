@@ -267,9 +267,9 @@ footer {
     transform: scale(1.05);
 }
 
-/*HTML - HABILITATS & ARMES */
+/* HTML - HABILITATS & ARMES */
 #Skill_Tree {
-    background-color: rgb(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     border: 5px solid rgb(160, 150, 90);
     width: 93%;
     padding: 15px;
@@ -277,38 +277,53 @@ footer {
 
 table {
     width: 95%;
-    font-family: 'Trebuchet MS', 'Gill Sans', Helvetica, sans-serif; color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Gill Sans', Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
     text-align: center;
-    margin: auto; margin-bottom: 20px; margin-top: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
     border-collapse: collapse;
 }
 
-th {
-    width: 12.5%;
-    background-color: rgba(200, 190, 100, 0.9);
-    font-size: 25px;
-    padding: 20px;
+.th_arbre {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(180, 155, 95);
+    border: 2px solid rgb(180, 155, 95);
+    font-size: 22.5px;
 }
 
-td {
-    background-color: rgba(255, 255, 255, 0.95);
-    font-size: 20px;
-    padding: 5px;
+.th_sub_arbre {
+    background-color: rgb(180, 155, 95);
+    color: rgb(0, 0, 0);
+    font-size: 22.5px;
 }
 
 .row_header th {
     font-size: 20px;
-    background-color: rgba(175, 0, 0, 0.9);
-    color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(175, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
-.row_titol {
-    background-color: rgba(175, 0, 0, 0.95);
+tr > th {
+    width: 12.5%;
+    background-color: rgb(180, 155, 95);
     font-size: 20px;
+    padding: 20px;
+}
+
+td {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 5px;
+}
+
+.row_habilitat th {
+    background-color: rgb(230, 220, 175)
 }
 
 .row_habilitat td {
-    background-color: rgba(230, 230, 195, 0.9);
+    background-color: rgb(230, 220, 175)
 }
 
 .hab {
@@ -329,11 +344,16 @@ td {
 
 .columna_arma {
     width: 90%;
-    padding: 20px; margin-top: 15px; margin-bottom: 15px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     background-color: rgba(175, 0, 0, 0.95);
-    font-family: 'Gill Sans', 'Trebuchet MS', Helvetica, sans-serif; color: rgb(255, 255, 255);
-    text-align: justify; vertical-align: top;
+    font-family: 'Gill Sans', 'Trebuchet MS', Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    vertical-align: top;
     display: flex;
+    flex-direction: row;
 }
 
 .arma {
@@ -347,13 +367,15 @@ td {
 
 /* HTML - GALERIA */
 .galeria {
-    width: 93%;
-    padding: 25px;
+    width: auto;
     background-color: rgba(255, 255, 255, 0.9);
     font-size: 18px; font-family: 'Trebuchet MS', 'Gill Sans', Helvetica, sans-serif; color: rgb(0, 0, 0);
-    text-align: center;vertical-align: top; line-height: 1.5;
-    margin: 25px; padding: 25px;
+    text-align: center; vertical-align: top; line-height: 1.5;
+    margin-left: 25px; margin-right: 25px;
+    margin-top: 15px; margin-bottom: 15px;
+    padding: 15px;
     border-left: 10px solid rgb(175, 0, 0);
+    box-sizing: border-box;
 }
 
 .galeria h1 {
@@ -375,11 +397,14 @@ td {
 
 .galeria_proleg {
     display: grid;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
-    width: 95%;
-    margin: 25px auto;
+    width: auto;
+    margin-left: 25px; margin-right: 25px;
+    margin-top: 15px; margin-bottom: 15px;
     align-items: center;
 }
 
