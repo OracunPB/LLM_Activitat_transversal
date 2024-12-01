@@ -121,10 +121,11 @@ footer {
 .img_index {
     height: 350px;
     margin-top: 25px;
+    transition: transform 0.3s ease;
 }
 
 .img_index:hover {
-    opacity: 80%;
+    transform: scale(1.05);
 }
 
 .ressaltar {
@@ -228,6 +229,11 @@ footer {
 .historia img {
     height: 275px;
     border: 5px solid rgb(150, 0, 0);
+    transition: transform 0.3s ease;
+}
+
+.historia img:hover {
+    transform: scale(1.05);
 }
 
 /* HTML - PERSONATGES */
@@ -247,10 +253,11 @@ footer {
     width: 250px;
     padding-right: 25px;
     display:flex;
+    transition: transform 0.3s ease;
 }
 
 .Jin:hover {
-    opacity: 0.9;
+    transform: scale(1.05);
 }
 
 /*HTML - HABILITATS & ARMES */
@@ -332,23 +339,110 @@ td {
 }
 
 /* HTML - GALERIA */
-.gallery {
+.galeria {
+    width: 93%;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 18px; font-family: 'Trebuchet MS', 'Gill Sans', Helvetica, sans-serif; color: rgb(0, 0, 0);
+    text-align: center;vertical-align: top; line-height: 1.5;
+    margin: 25px; padding: 25px;
+    border-left: 10px solid rgb(175, 0, 0);
+}
+
+.galeria h1 {
+    text-align: justify; 
+    font-style: italic; 
+    color: rgb(0, 0, 0);
+}
+
+.galeria h2 {
+    text-align: justify; 
+    font-style: italic;
+    color: rgb(175, 0, 0);
+}
+
+.galeria p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.galeria_proleg {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 10px;
     width: 95%;
     margin: 25px auto;
     align-items: center;
 }
 
-.gallery img {
+.galeria_proleg img {
     width: 100%;
     height: auto;
     transition: transform 0.3s ease;
 }
 
-.gallery img:hover {
+.galeria_proleg img:hover {
+    transform: scale(1.1);
+}
+
+.galeria_acte1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 95%;
+    margin: 25px auto;
+    align-items: center;
+}
+
+.galeria_acte1 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.galeria_acte1 img:hover {
+    transform: scale(1.1);
+}
+
+.galeria_acte2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 95%;
+    margin: 25px auto;
+    align-items: center;
+}
+
+.galeria_acte2 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.galeria_acte2 img:hover {
+    transform: scale(1.1);
+}
+
+.galeria_acte3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 95%;
+    margin: 25px auto;
+    align-items: center;
+}
+
+.galeria_acte3 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.galeria_acte3 img:hover {
     transform: scale(1.1);
 }
 
