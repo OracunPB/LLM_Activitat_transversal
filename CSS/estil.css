@@ -138,16 +138,25 @@ footer {
     text-align: justify; 
     font-style: italic; 
     color: rgb(0, 0, 0);
+    line-height: 2.5;
 }
 
 .index h2 {
     text-align: justify; 
-    font-style: italic; 
+    font-style: italic;
+    line-height: 2.5;
+}
+
+.img_info {
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
 }
 
 .index p {
     text-align: justify;
     font-size: 20px;
+    line-height: 1.75;
 }
 
 #dades {
@@ -173,7 +182,6 @@ footer {
     border: 1px solid #ccc;
     margin: 5px;
 }
-
 
 /* HTML - HISORIA */
 .historia {
@@ -228,7 +236,6 @@ footer {
 
 .historia img {
     height: 275px;
-    border: 5px solid rgb(150, 0, 0);
     transition: transform 0.3s ease;
 }
 
