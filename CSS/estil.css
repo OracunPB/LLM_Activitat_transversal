@@ -554,7 +554,7 @@ input {
     gap: 20px; 
     padding: 20px; 
     margin-bottom: 25px;
-    width: 100%;
+    width: 97%;
 }
 
 #nosaltres_cap h1 {
@@ -573,8 +573,9 @@ input {
 }
 
 #nosaltres_info {
-    width: 100%; padding: 20px; 
+    width: 95%; padding: 20px; 
     background-color: rgb(255, 255, 255);
+    border: solid rgb(0, 0, 0) 3px;
     border-radius: 8px; 
     font-family: 'Trebuchet MS', 'Gill Sans', 'Helvetica', sans-serif;
 }
@@ -594,4 +595,58 @@ input {
     list-style-type:disc;
     list-style-position: inside;
     line-height: 1.5;
+}
+
+#nosaltres_exp {
+    font-family: 'Trebuchet MS', 'Gill Sans', 'Helvetica', sans-serif;
+    margin: 15px;
+    padding: 20px;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.nosaltres_exp_div {
+    border: solid 3px rgb(180, 155, 95);
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+#nosaltres_exp h2 {
+    color: rgb(180, 155, 95);
+    font-style: italic;
+    line-height: 2;
+}
+
+#nosaltres_exp h3 {
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    line-height: 1.75;
+}
+
+#nosaltres_estudis caption {
+    font-family: 'Trebuchet MS', 'Gill Sans', 'Helvetica', sans-serif;
+    font-size: 25px;
+    font-style: italic; font-weight: 1000;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(180, 155, 95);
+}
+
+#nosaltres_estudis th {
+    font-family: 'Trebuchet MS', 'Gill Sans', 'Helvetica', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    padding: 18px;
+    width: 600px;
+}
+
+#nosaltres_estudis td {
+    font-family: 'Trebuchet MS', 'Gill Sans', 'Helvetica', sans-serif;
+    font-size: 16px;
+    padding-top: 20px; padding-bottom: 20px;
+    width: 600px;
 }
