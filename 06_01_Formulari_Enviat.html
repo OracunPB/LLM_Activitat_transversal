@@ -34,9 +34,9 @@
                     </li>
                     <li><a href="04_Ubicacions.html"><i class="fa fa-fw fa-map"></i> MAPA</a></li>
                     <li><a href="05_Galeria.html"><i class="fa fa-fw fa-image"></i> GALERIA</a></li>
-                    <li><a href="06_Formulari.html"><i class="fa fa-fw fa-pencil-square-o"></i> FORMULARI</a></li>
+                    <li><a href="06_Formulari.html" class="active"><i class="fa fa-fw fa-pencil-square-o"></i> FORMULARI</a></li>
                     <li>
-                        <a href="07_00_Nosaltres.html" class="active"><i class="fa fa-fw fa-question-circle-o"></i> NOSALTRES <i class="fa fa-fw fa-chevron-down"></i></a>
+                        <a href="07_00_Nosaltres.html"><i class="fa fa-fw fa-question-circle-o"></i> NOSALTRES <i class="fa fa-fw fa-chevron-down"></i></a>
                         <ul aria-label="Submenú de NOSALTRES">
                             <li><a href="07_01_Alex.html" target="_blank">Alex Tomé</a></li>
                             <li><a href="07_02_Pau.html" target="_blank">Pau Bosch</a></li>
@@ -45,25 +45,11 @@
             </nav>
         </header>
 
-        <!-- QUI SOM? -->
-        <div id="nosaltres">
-            <div id="nosaltres">
-                <div><a href="07_01_Alex.html" target="_blank"><img src="img/07_NOSALTRES/alex.jpeg"; alt="Alex Tomé"; class="Jin"></a></div>
-                <div><h1>ALEX TOMÉ</h1></div>
-            </div>
-
-            <div id="nosaltres" style="justify-content: flex-end;">
-                <div><h1>PAU BOSCH</h1></div>
-                <div><a href="07_02_Pau.html" target="_blank"><img src="img/07_NOSALTRES/pau.jpeg"; alt="Pau Bosch"; class="Jin"></a></div>
-            </div>
-                        
+        <!-- CONFIRMACIÓ FORMULARI ENVIAT -->
+        <div id="div_tornar" style="background-color: rgb(120, 0, 0);"  >
+            <h1 style="color: white;">FORMULARI ENVIAT CORRECTAMENT</h1>
+        
+            <form id="form_tornar" action="06_Formulari.html">
+                <input id="Tornar" type="submit" value="Tornar"></input>
+            </form>
         </div>
-        <!-- FOOTER -->
-       <footer>
-            <div>
-                <p>2023 Ghost of Tsushima WikiVideojoc. Todos los derechos reservados.</p>
-            </div>
-        </footer>
-
-    </body>
-</html>
